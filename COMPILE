@@ -1,0 +1,11 @@
+*** Compilation Instructions ***
+
+* Linux
+   Use gcc 3.4 or higher.
+   Run make from the main directory.
+
+* Windows
+   Use Visual Studio 2005 or higher.
+   Open the solution file PS2_IconSys.sln
+   from the main directory.
+   Alternatively, you may use Cygwin as well.

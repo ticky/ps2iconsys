@@ -1,0 +1,7 @@
+*************************************************
+** PS2 IconSys Library - Version History       **
+*************************************************
+
+* V-1.0 Initial Release (Jan. 08)
+ - Implementations of iconsys_builder, obj_to_ps2icon
+   and ps2icon_to_obj and their respective libraries

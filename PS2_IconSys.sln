@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iconsys_builder", "win32\iconsys_builder.vcproj", "{E66C67D7-8948-467C-BD50-38E863923E92}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "obj_to_ps2icon", "win32\obj_to_ps2icon.vcproj", "{DBE07DE8-A200-4F13-8016-C8A9DDBC994E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ps2icon_to_obj", "win32\ps2icon_to_obj.vcproj", "{714A145A-F4BF-470A-829B-1EB3A48E6B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E66C67D7-8948-467C-BD50-38E863923E92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E66C67D7-8948-467C-BD50-38E863923E92}.Debug|Win32.Build.0 = Debug|Win32
+		{E66C67D7-8948-467C-BD50-38E863923E92}.Release|Win32.ActiveCfg = Release|Win32
+		{E66C67D7-8948-467C-BD50-38E863923E92}.Release|Win32.Build.0 = Release|Win32
+		{DBE07DE8-A200-4F13-8016-C8A9DDBC994E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBE07DE8-A200-4F13-8016-C8A9DDBC994E}.Debug|Win32.Build.0 = Debug|Win32
+		{DBE07DE8-A200-4F13-8016-C8A9DDBC994E}.Release|Win32.ActiveCfg = Release|Win32
+		{DBE07DE8-A200-4F13-8016-C8A9DDBC994E}.Release|Win32.Build.0 = Release|Win32
+		{714A145A-F4BF-470A-829B-1EB3A48E6B13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{714A145A-F4BF-470A-829B-1EB3A48E6B13}.Debug|Win32.Build.0 = Debug|Win32
+		{714A145A-F4BF-470A-829B-1EB3A48E6B13}.Release|Win32.ActiveCfg = Release|Win32
+		{714A145A-F4BF-470A-829B-1EB3A48E6B13}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
