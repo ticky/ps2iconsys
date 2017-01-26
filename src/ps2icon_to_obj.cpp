@@ -71,11 +71,13 @@ void ParseCommandLine(int argc, char* argv[])
 			} else if( (strcmp( argv[i], "-ot" ) == 0) || (strcmp( argv[i], "--output-texture" ) == 0) ) {
 				texture_output_file = argv[++i];
 			} else {
-				std::cout << "Invalid argument. Use -h for help." << std::endl;
+				std::cout << "Invalid argument.\n" << std::endl;
+				PrintHelp(argv[0]);
 				exit(1);
 			}
 		} else {
-			std::cout << "Invalid argument. Use -h for help." << std::endl;
+			std::cout << "Invalid argument.\n" << std::endl;
+			PrintHelp(argv[0]);
 			exit(1);
 		}
 	}
@@ -165,12 +167,11 @@ void WriteTextureFile(PS2Icon* ps2_icon)
 
 int main(int argc, char* argv[])
 {
-	std::cout << std::endl;
-	
 	ParseCommandLine(argc, argv);
 
 	if(!ps2_input_file) {
-		std::cout << "No input file specified. Use -h for help." << std::endl;
+		std::cout << "No input file specified.\n" << std::endl;
+		PrintHelp(argv[0]);
 		exit(1);
 	}
 	std::cout << "PS2Icon to OBJ Converter  V-1.0\n by Ghulbus Inc.  (http://www.ghulbus-inc.de/)\n" << std::endl;

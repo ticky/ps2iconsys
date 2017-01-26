@@ -214,7 +214,8 @@ void ParseCommandLine(int argc, char* argv[])
 		} else if( (i < argc - 4) && (ParseCommandLine_4Args(i, argv)) ) {
 			i += 4;
 		} else {
-			std::cout << "Invalid argument. Use -h for help." << std::endl;
+			std::cout << "Invalid argument." << std::endl << std::endl;
+			PrintHelp(argv[0]);
 			exit(1);
 		}
 	}
@@ -433,14 +434,16 @@ void Cleanup()
 
 int main(int argc, char* argv[])
 {
-	std::cout << std::endl;
-
 	ParseCommandLine(argc, argv);
+
 	if(argc < 2) {
-		std::cout << "No parameters specified. Use -h for help." << std::endl;
+		std::cout << "No parameters specified." << std::endl << std::endl;
+		PrintHelp(argv[0]);
 		exit(1);
 	}
+
 	CheckParameters();
+
 	std::cout << "PS2 Icon.Sys Builder  V-1.0\n by Ghulbus Inc.  (http://www.ghulbus-inc.de/)\n" << std::endl;
 
 	if(!output_file) {

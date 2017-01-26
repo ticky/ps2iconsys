@@ -86,11 +86,13 @@ void ParseCommandLine(int argc, char* argv[])
 			} else if( (strcmp( argv[i], "-s" ) == 0) || (strcmp( argv[i], "--scale-factor" ) == 0) ) {
 				obj_scale_factor = static_cast<float>(atof(argv[++i]));
 			} else {
-				std::cout << "Invalid argument. Use -h for help." << std::endl;
+				std::cout << "Invalid argument." << std::endl << std::endl;
+				PrintHelp(argv[0]);
 				exit(1);
 			}
 		} else {
-			std::cout << "Invalid argument. Use -h for help." << std::endl;
+			std::cout << "Invalid argument." << std::endl << std::endl;
+			PrintHelp(argv[0]);
 			exit(1);
 		}
 	}
@@ -226,12 +228,11 @@ void WriteOutputFile(OBJ_FileLoader const* obj_file, GhulbusUtil::gbImageLoader*
 
 int main(int argc, char* argv[])
 {
-	std::cout << std::endl;
-	
 	ParseCommandLine(argc, argv);
 
 	if(!obj_input_file) {
-		std::cout << "No input file specified. Use -h for help." << std::endl;
+		std::cout << "No input file specified." << std::endl << std::endl;
+		PrintHelp(argv[0]);
 		exit(1);
 	}
 	std::cout << "OBJ to PS2Icon Converter  V-1.0\n by Ghulbus Inc.  (http://www.ghulbus-inc.de/)\n" << std::endl;
