@@ -1,0 +1,4 @@
+# Ignore Unix binaries
+/iconsys_builder
+/obj_to_ps2icon
+/ps2icon_to_obj
