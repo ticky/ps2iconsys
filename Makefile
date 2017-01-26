@@ -26,7 +26,7 @@ remake: clean all
 
 .PHONY : clean doxygen_doc
 clean:
-	rm $(OBJECTS) iconsys_builder.o ps2icon_to_obj.o obj_to_ps2icon.o
+	rm $(OBJECTS) iconsys_builder.o ps2icon_to_obj.o obj_to_ps2icon.o iconsys_builder ps2icon_to_obj obj_to_ps2icon
 
 doxygen_doc:
 	doxygen DOXYGEN.cfg
