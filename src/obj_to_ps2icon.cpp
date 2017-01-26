@@ -1,11 +1,7 @@
 /**
  * @file src/obj_to_ps2icon.cpp
  *
- * @brief A tool for converting Wavefront OBJ to PS2 Icons
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief A tool for converting Wavefront OBJ to PS2 Iconsbuild_header/
  */
 #include <iostream>
 #include "../include/ps2_ps2icon.hpp"

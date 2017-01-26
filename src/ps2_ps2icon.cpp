@@ -1,11 +1,7 @@
 /**
  * @file src/ps2_ps2icon.cpp
  *
- * @brief Implementation of the PS2Icon class
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief Implementation of the PS2Icon classbuild_header/
  */
 #include "../include/ps2_ps2icon.hpp"
 

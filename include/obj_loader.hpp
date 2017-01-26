@@ -1,11 +1,7 @@
 /**
  * @file include/obj_loader.hpp
  *
- * @brief A simple loader for Wavefront .OBJ files
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief A simple loader for Wavefront .OBJ filesbuild_header/
  */
 #ifndef __OBJ_LOADER_HPP_INCLUDE_GUARD__
 #define __OBJ_LOADER_HPP_INCLUDE_GUARD__

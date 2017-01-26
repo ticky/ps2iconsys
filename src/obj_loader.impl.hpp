@@ -1,11 +1,7 @@
 /**
  * @file src/obj_loader.impl.hpp
  *
- * @brief Template members of OBJ_FileLoader and OBJ_Mesh
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief Template members of OBJ_FileLoader and OBJ_Meshbuild_header/
  */
 template<typename T>
 void OBJ_Mesh::GetMeshGeometryUnindexed(T* mesh_geometry, T* mesh_normals, T* mesh_texture, T scale) const {

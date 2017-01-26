@@ -1,11 +1,7 @@
 /**
  * @file src/iconsys_builder.hpp
  *
- * @brief A tool for creating and manipulating Icon.sys files
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief A tool for creating and manipulating Icon.sys filesbuild_header/
  */
 #include <iostream>
 #include <iomanip>

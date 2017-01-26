@@ -1,11 +1,7 @@
 /**
  * @file src/ps2_iconsys.cpp
  *
- * @brief Implementation of the icon.sys file loader
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief Implementation of the icon.sys file loaderbuild_header/
  */
 #include "../include/ps2_iconsys.hpp"
 

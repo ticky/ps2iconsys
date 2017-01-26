@@ -1,11 +1,7 @@
 /**
  * @file include/ps2_ps2icon.hpp
  *
- * @brief A loader for PS2 icon files
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief A loader for PS2 icon filesbuild_header/
  */
 #ifndef __PS2_ICON_LOADER_HPP_INCLUDE_GUARD__
 #define __PS2_ICON_LOADER_HPP_INCLUDE_GUARD__

@@ -1,11 +1,7 @@
 /**
  * @file src/obj_loader.cpp
  *
- * @brief Implementation of OBJ_FileLoader and OBJ_Mesh
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief Implementation of OBJ_FileLoader and OBJ_Meshbuild_header/
  */
 #include "../include/obj_loader.hpp"
 #include <cstdio>

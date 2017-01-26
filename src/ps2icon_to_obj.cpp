@@ -1,11 +1,7 @@
 /**
  * @file src/ps2icon_to_obj.cpp
  *
- * @brief A tool for converting PS2 Icons to OBJ
- *
- * @version 1.0
- * @author Andreas Weis
- *
+ * @brief A tool for converting PS2 Icons to OBJbuild_header/
  */
 #include <iostream>
 #include "../include/ps2_ps2icon.hpp"
