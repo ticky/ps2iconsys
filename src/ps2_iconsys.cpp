@@ -4,6 +4,8 @@
  * @brief Implementation of the icon.sys file loaderbuild_header/
  */
 #include "../include/ps2_iconsys.hpp"
+#include <cstring>
+#include <climits>
 
 bool IconSys::CheckValidity(IconSys::File_t const& f)
 {

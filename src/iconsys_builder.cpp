@@ -6,6 +6,7 @@
 #include <iostream>
 #include <iomanip>
 #include "../include/ps2_iconsys.hpp"
+#include <cstring>
 
 char const* input_file   = NULL;	///< name of the input file
 char const* output_file  = NULL;	///< name of the output file

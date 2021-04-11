@@ -4,6 +4,8 @@
  * @brief Implementation of the PS2Icon classbuild_header/
  */
 #include "../include/ps2_ps2icon.hpp"
+#include <cstring>
+#include <climits>
 
 /** Helper function: converts float32 to float16
  */
