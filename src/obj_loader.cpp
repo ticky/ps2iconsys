@@ -5,6 +5,7 @@
  */
 #include "../include/obj_loader.hpp"
 #include <cstdio>
+#include <cstring>
 #include <string>
 
 OBJ_FileLoader::OBJ_FileLoader()

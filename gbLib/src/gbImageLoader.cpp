@@ -10,6 +10,8 @@
  *
  */
 #include "../include/gbImageLoader.hpp"
+#include <cstring>
+#include <climits>
 
 namespace GhulbusUtil {
 	gbImageLoader::gbImageLoader(char const* fname, gbImageType* img_type)
